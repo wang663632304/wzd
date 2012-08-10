@@ -1,36 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0891956-b4a3-4248-859f-588ce9b62a0a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/depend.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ViewPagerIndicator/ViewPagerIndicator.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actionbar/actionbar.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="DELETED" beforePath="F:\Src\idea\wzd\.idea\ant.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Src\idea\wzd\AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Src\idea\wzd\README.md" afterPath="" />
-      <change type="DELETED" beforePath="F:\Src\idea\wzd\ant.properties" afterPath="" />
-      <change type="DELETED" beforePath="F:\Src\idea\wzd\build.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Src\idea\wzd\gen\org\yftx\wzd\BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="F:\Src\idea\wzd\gen\org\yftx\wzd\R.java" afterPath="" />
-      <change type="DELETED" beforePath="F:\Src\idea\wzd\local.properties" afterPath="" />
-      <change type="DELETED" beforePath="F:\Src\idea\wzd\proguard-project.txt" afterPath="" />
-      <change type="DELETED" beforePath="F:\Src\idea\wzd\project.properties" afterPath="" />
-      <change type="DELETED" beforePath="F:\Src\idea\wzd\res\drawable-hdpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Src\idea\wzd\res\drawable-ldpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Src\idea\wzd\res\drawable-mdpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Src\idea\wzd\res\layout\main.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Src\idea\wzd\res\values\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Src\idea\wzd\src\org\yftx\wzd\activity\MainActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="F:\Src\idea\wzd\src\org\yftx\wzd\domain\Bid.java" afterPath="" />
-      <change type="DELETED" beforePath="F:\Src\idea\wzd\src\org\yftx\wzd\net\WzdApi.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wzd.iml" afterPath="$PROJECT_DIR$/wzd.iml" />
-    </list>
+    <list default="true" id="d0891956-b4a3-4248-859f-588ce9b62a0a" name="Default" comment="" />
     <ignored path="wzd.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
