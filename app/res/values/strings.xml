@@ -2,4 +2,8 @@
 <resources>
     <string name="app_name">wzd</string>
     <string name="getXml">获取wzd数据</string>
+    <string name="pull_to_refresh_pull_label">Pull to refresh</string>
+    <string name="pull_to_refresh_release_label">Release to refresh</string>
+    <string name="pull_to_refresh_refreshing_label">Loading</string>
+    <string name="pull_to_refresh_tap_label">Tap to refresh</string>
 </resources>

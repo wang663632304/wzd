@@ -7,6 +7,24 @@ package org.yftx.wzd.domain;
  * Mail: yftx.net@gmail.com
  * Date: 12-7-22
  */
+
+/**
+ * <item id="0">
+ 	<account_format>750,000</account_format>
+ 	<scale>61.2</scale>
+ 	<id>11420</id>
+ 	<user_id>1729</user_id>
+ 	<name>创新借款系列（1）——14天标</name>
+ 	<time_limit>1</time_limit>
+ 	<apr>20.40</apr>
+ 	<funds></funds>
+ 	<addtime>2012-08-12 19:56:20</addtime>
+ 	<username>Dayyz3</username>
+ 	<repayment_manner>按月还款</repayment_manner>
+ 	<borrow_type>给力标</borrow_type>
+ 	<link_url>http://www.wzdai.com/invest/a11420.html</link_url>
+ </item>
+ */
 public class Bid {
     //item id(当前xml中的第几位从0开始)
     private int id;
@@ -28,6 +46,21 @@ public class Bid {
     private String borrow_type;
     //标的连接地址
     private String link_url;
+    /**
+     * 标添加的时间
+     */
+    private String addtime;
+
+    public String getAddtime() {
+        return addtime;
+    }
+
+    public void setAddtime(String addtime) {
+        this.addtime = addtime;
+    }
+
+
+
 
     public int getId() {
         return id;

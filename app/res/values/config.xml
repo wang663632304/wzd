@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="apiurl">http://www.wzdai.com/openapi/invest-list.php</string>
+</resources>
