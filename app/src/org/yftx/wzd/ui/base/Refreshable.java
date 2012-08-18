@@ -1,5 +1,7 @@
 package org.yftx.wzd.ui.base;
 
+import org.yftx.common.task.TaskAdapter;
+
 /**
  * User: yftx
  * Mail: yftx.net@gmail.com
@@ -8,6 +10,7 @@ package org.yftx.wzd.ui.base;
 public interface Refreshable {
     /**
      * 请求数据
+     * @param listener 任务处理过程的回调函数
      */
-    void doRetrieve();
+    void doRetrieve(TaskAdapter listener);
 }

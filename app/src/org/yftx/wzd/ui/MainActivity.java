@@ -3,6 +3,8 @@ package org.yftx.wzd.ui;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.util.Log;
+import android.view.Window;
+import android.view.WindowManager;
 import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.viewpagerindicator.TitlePageIndicator;
 import org.yftx.common.task.*;
@@ -27,28 +29,21 @@ public class MainActivity extends SherlockFragmentActivity implements Refreshabl
     protected GenericTask mRetrieveTask;
     public List<Bid> bids = new ArrayList<Bid>();
     private WZDApplication app;
+    private TaskAdapter taskListener;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.simple_titles);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        setContentView(R.layout.main);
         app = (WZDApplication) getApplication();
-        initData();
+        initView();
+        getData();
+
     }
 
-    /**
-     * 向网络请求数据。
-     */
-    private void initData() {
-        mRetrieveTask = new RetrieveTask();
-        mRetrieveTask.setListener(mRetrieveCB);
-        mRetrieveTask.execute();
-    }
-
-    /**
-     * 向fragment中填充数据
-     */
-    private void fillData() {
+    private void initView() {
         //内容部分
         mAdapter = new ContentAdapter(getSupportFragmentManager());
         mPager = (ViewPager) findViewById(R.id.pager);
@@ -60,10 +55,29 @@ public class MainActivity extends SherlockFragmentActivity implements Refreshabl
         indicator.setFooterIndicatorStyle(TitlePageIndicator.IndicatorStyle.Triangle);
     }
 
+    /**
+     * 向网络请求数据。
+     */
+    private void getData() {
+        mRetrieveTask = new RetrieveTask();
+        if (taskListener == null)
+            taskListener = mRetrieveCB;
+
+        mRetrieveTask.setListener(taskListener);
+        mRetrieveTask.execute();
+    }
+
+    /**
+     * 向fragment中填充数据
+     */
+    private void refreshData() {
+        mAdapter.notifyDataSetChanged();
+    }
+
     @Override
-    public void doRetrieve() {
-
-
+    public void doRetrieve(TaskAdapter listener) {
+        taskListener = listener;
+        getData();
     }
 
 
@@ -74,6 +88,7 @@ public class MainActivity extends SherlockFragmentActivity implements Refreshabl
         protected TaskResult _doInBackground(TaskParams... params) {
             try {
                 bids = app.wzd.retrieveData();
+                refreshData();
             } catch (Exception e) {
                 Log.e(TAG, e.getMessage(), e);
                 return TaskResult.IO_ERROR;
@@ -82,23 +97,30 @@ public class MainActivity extends SherlockFragmentActivity implements Refreshabl
         }
     }
 
-    TaskListener mRetrieveCB = new TaskAdapter() {
+    TaskAdapter mRetrieveCB = new TaskAdapter() {
         @Override
         public String getName() {
             return "RetrieveTask";
         }
 
         @Override
+        public void onPreExecute(GenericTask task) {
+            TaskFeedback.getInstance(TaskFeedback.DIALOG_MODE, MainActivity.this).start("看看有什么新的标");
+        }
+
+        @Override
+        public void onCancelled(GenericTask task) {
+            TaskFeedback.getInstance(TaskFeedback.DIALOG_MODE, MainActivity.this).cancel();
+        }
+
+        @Override
         public void onPostExecute(GenericTask task, TaskResult result) {
             if (result == TaskResult.AUTH_ERROR) {
-
             } else if (result == TaskResult.OK) {
-                Log.d(TAG, "返回的数据长度为" + bids.size() + "");
-                fillData();
+                TaskFeedback.getInstance(TaskFeedback.DIALOG_MODE, MainActivity.this).success("刷新投标信息完成");
             } else if (result == TaskResult.IO_ERROR) {
 
             }
         }
     };
-
 }

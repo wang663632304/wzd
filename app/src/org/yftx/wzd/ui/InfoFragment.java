@@ -1,19 +1,24 @@
 package org.yftx.wzd.ui;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.actionbarsherlock.app.SherlockFragment;
+import org.yftx.common.task.GenericTask;
+import org.yftx.common.task.TaskAdapter;
+import org.yftx.common.task.TaskFeedback;
+import org.yftx.common.task.TaskResult;
 import org.yftx.wzd.R;
 import org.yftx.wzd.ui.adapter.InfoAdapter;
+import org.yftx.wzd.ui.base.Refreshable;
 import org.yftx.wzd.ui.custom.PullToRefreshListView;
 
 
 /**
  * 表信息显示ui
- * <p/>
  * User: yftx
  * Mail: yftx.net@gmail.com
  * Date: 12-8-11
@@ -23,7 +28,7 @@ public class InfoFragment extends SherlockFragment {
     private int mCurrentPos;
     private PullToRefreshListView plv;
 
-    public static InfoFragment newInstance(int currentPos ) {
+    public static InfoFragment newInstance(int currentPos) {
         InfoFragment fragment = new InfoFragment();
         fragment.mCurrentPos = currentPos;
         return fragment;
@@ -48,8 +53,12 @@ public class InfoFragment extends SherlockFragment {
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         plv.setAdapter(new InfoAdapter(getActivity()));
-
-
+        plv.setOnRefreshListener(new PullToRefreshListView.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                ((Refreshable) getActivity()).doRetrieve(mFragListener);
+            }
+        });
 //        setListAdapter(new InfoAdapter(getActivity()));
     }
 
@@ -59,5 +68,35 @@ public class InfoFragment extends SherlockFragment {
 //        outState.putString(KEY_CONTENT, mContent);
     }
 
+
+    TaskAdapter mFragListener = new TaskAdapter() {
+        @Override
+        public String getName() {
+            return "mFragListener";
+        }
+
+        @Override
+        public void onPreExecute(GenericTask task) {
+            plv.onRefreshComplete();
+            TaskFeedback.getInstance(TaskFeedback.DIALOG_MODE, getActivity()).start("刷新标信息");
+        }
+
+        @Override
+        public void onCancelled(GenericTask task) {
+            plv.onRefreshComplete();
+            TaskFeedback.getInstance(TaskFeedback.DIALOG_MODE, getActivity()).cancel();
+        }
+
+        @Override
+        public void onPostExecute(GenericTask task, TaskResult result) {
+            if (result == TaskResult.AUTH_ERROR) {
+            } else if (result == TaskResult.OK) {
+                plv.onRefreshComplete();
+                TaskFeedback.getInstance(TaskFeedback.DIALOG_MODE, getActivity()).success("刷新投标信息完成");
+            } else if (result == TaskResult.IO_ERROR) {
+
+            }
+        }
+    };
 
 }
