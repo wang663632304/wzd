@@ -104,7 +104,7 @@ class DialogFeedback extends TaskFeedback {
     @Override
     public void start(String prompt) {
         _dialog = ProgressDialog.show(_context, "", prompt, true);
-        _dialog.setCancelable(true);
+        _dialog.setCancelable(false);
     }
 
     @Override

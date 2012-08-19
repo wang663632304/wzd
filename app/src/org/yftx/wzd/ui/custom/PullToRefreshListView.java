@@ -11,11 +11,11 @@ import android.view.animation.LinearInterpolator;
 import android.view.animation.RotateAnimation;
 import android.widget.*;
 import org.yftx.wzd.R;
+import org.yftx.wzd.utils.Logger;
 
 /**
- *
  * 滑动刷新
- *
+ * <p/>
  * User: yftx
  * Mail: yftx.net@gmail.com
  * Date: 12-8-12
@@ -346,7 +346,7 @@ public class PullToRefreshListView extends ListView implements AbsListView.OnScr
     }
 
     public void onRefresh() {
-        Log.d(TAG, "onRefresh");
+        Logger.d("onRefresh");
 
         if (mOnRefreshListener != null) {
             mOnRefreshListener.onRefresh();
@@ -367,8 +367,6 @@ public class PullToRefreshListView extends ListView implements AbsListView.OnScr
      * Resets the list to a normal state after a refresh.
      */
     public void onRefreshComplete() {
-        Log.d(TAG, "onRefreshComplete");
-
         resetHeader();
 
         // If refresh view is visible when loading completes, scroll down to

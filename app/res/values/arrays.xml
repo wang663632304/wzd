@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="classify">
+        <item>月标</item>
+        <item>天标</item>
+    </string-array>
+</resources>

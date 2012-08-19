@@ -5,15 +5,8 @@
       <filter>
         <option name="logLevel" value="verbose" />
         <option name="logMessagePattern" value="" />
-        <option name="logTagPattern" value="MainActivity" />
-        <option name="name" value="MainActivity" />
-        <option name="pid" value="" />
-      </filter>
-      <filter>
-        <option name="logLevel" value="verbose" />
-        <option name="logMessagePattern" value="" />
-        <option name="logTagPattern" value="RetrieveTask" />
-        <option name="name" value="RetrieveTask" />
+        <option name="logTagPattern" value="wzd" />
+        <option name="name" value="wzd" />
         <option name="pid" value="" />
       </filter>
     </filters>
@@ -26,19 +19,40 @@
         <option name="nightMode" value="notnight" />
         <option name="targetHashString" value="android-14" />
         <option name="theme" value="Theme.Sherlock" />
+        <option name="visible" value="false" />
       </GlobalState>
     </option>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="MainActivity" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="wzd" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0891956-b4a3-4248-859f-588ce9b62a0a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/res/drawable/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/depend/guava-13.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/res/layout/title_count.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/res/values/arrays.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/org/yftx/wzd/utils/Logger.java" />
+      <change type="DELETED" beforePath="F:\Src\idea\wzd\app\res\drawable-hdpi\ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\Src\idea\wzd\app\res\drawable-ldpi\ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\Src\idea\wzd\app\res\drawable-mdpi\ic_launcher.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ViewPagerIndicator/src/com/viewpagerindicator/TitlePageIndicator.java" afterPath="$PROJECT_DIR$/ViewPagerIndicator/src/com/viewpagerindicator/TitlePageIndicator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/res/layout/main.xml" afterPath="$PROJECT_DIR$/app/res/layout/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/org/yftx/common/task/TaskFeedback.java" afterPath="$PROJECT_DIR$/app/src/org/yftx/common/task/TaskFeedback.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/org/yftx/common/task/TaskManager.java" afterPath="$PROJECT_DIR$/app/src/org/yftx/common/task/TaskManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/InfoFragment.java" afterPath="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/InfoFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/adapter/ContentAdapter.java" afterPath="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/adapter/ContentAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/adapter/InfoAdapter.java" afterPath="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/adapter/InfoAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/base/Refreshable.java" afterPath="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/base/Refreshable.java" />
-      <change type="MOVED" beforePath="F:\Src\idea\wzd\app\res\layout\simple_titles.xml" afterPath="$PROJECT_DIR$/app/res/layout/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/custom/PullToRefreshListView.java" afterPath="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/custom/PullToRefreshListView.java" />
+      <change type="MOVED" beforePath="F:\Src\idea\wzd\app\res\drawable-ldpi\jiang.png" afterPath="$PROJECT_DIR$/app/res/drawable/jiang.png" />
+      <change type="MOVED" beforePath="F:\Src\idea\wzd\app\res\drawable-ldpi\jing.png" afterPath="$PROJECT_DIR$/app/res/drawable/jing.png" />
+      <change type="MOVED" beforePath="F:\Src\idea\wzd\app\res\drawable-ldpi\li.png" afterPath="$PROJECT_DIR$/app/res/drawable/li.png" />
+      <change type="MOVED" beforePath="F:\Src\idea\wzd\app\res\drawable-ldpi\tian.png" afterPath="$PROJECT_DIR$/app/res/drawable/tian.png" />
+      <change type="MOVED" beforePath="F:\Src\idea\wzd\app\res\drawable-ldpi\xin.png" afterPath="$PROJECT_DIR$/app/res/drawable/xin.png" />
     </list>
     <ignored path="wzd.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -113,82 +127,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="InfoFragment.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="InfoFragment.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/org/yftx/wzd/ui/InfoFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="33" selection-start="2343" selection-end="2343" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="35" column="27" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.5824916">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2129#2291#0" expanded="true" />
+                <element signature="e#2280#2281#0" expanded="true" />
+                <element signature="e#2329#2663#0" expanded="true" />
+                <element signature="e#2652#2653#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PullToRefreshListView.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/org/yftx/wzd/ui/custom/PullToRefreshListView.java">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="360" column="16" selection-start="12690" selection-end="12690" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Refreshable.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/org/yftx/wzd/ui/base/Refreshable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="9" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/org/yftx/wzd/ui/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="28" selection-start="815" selection-end="815" vertical-scroll-proportion="0.30564785">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TaskAdapter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/org/yftx/common/task/TaskAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="22" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TaskListener.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/org/yftx/common/task/TaskListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="17" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/res/layout/main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="2" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WZD.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/org/yftx/wzd/engine/WZD.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="21" selection-start="1230" selection-end="1230" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="info.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/res/layout/info.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="24" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0">
+            <state line="10" column="73" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -212,30 +169,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/src/org/yftx/common/task/WZDCommonTask.java" />
-        <option value="$PROJECT_DIR$/app/res/values/config.xml" />
-        <option value="$PROJECT_DIR$/app/src/org/yftx/wzd/engine/wzd.java" />
-        <option value="$PROJECT_DIR$/app/src/org/yftx/wzd/WZDApplication.java" />
-        <option value="$PROJECT_DIR$/app/res/layout/test.xml" />
-        <option value="$PROJECT_DIR$/app/src/org/yftx/wzd/domain/Bid.java" />
-        <option value="$PROJECT_DIR$/app/src/org/yftx/wzd/engine/WZD.java" />
-        <option value="$PROJECT_DIR$/app/src/org/yftx/common/task/TaskParams.java" />
-        <option value="$PROJECT_DIR$/app/src/org/yftx/wzd/engine/WZDCommonTask.java" />
-        <option value="$PROJECT_DIR$/app/res/layout/info.xml" />
-        <option value="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/adapter/InfoAdapter.java" />
-        <option value="$PROJECT_DIR$/app/res/layout/info_item.xml" />
-        <option value="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/adapter/ContentAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/custom/PullToRefreshListView.java" />
+        <option value="$PROJECT_DIR$/app/res/layout/title_count.xml" />
+        <option value="$PROJECT_DIR$/app/res/values/array.xml" />
+        <option value="$PROJECT_DIR$/app/res/values/arrays.xml" />
         <option value="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/base/Refreshable.java" />
-        <option value="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/InfoFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/adapter/ContentAdapter.java" />
+        <option value="$PROJECT_DIR$/ViewPagerIndicator/res/values/vpi__defaults.xml" />
+        <option value="$PROJECT_DIR$/ViewPagerIndicator/src/com/viewpagerindicator/TitlePageIndicator.java" />
+        <option value="$PROJECT_DIR$/app/res/layout/main.xml" />
+        <option value="$PROJECT_DIR$/app/src/org/yftx/wzd/utils/Logger.java" />
+        <option value="$PROJECT_DIR$/app/src/org/yftx/common/task/TaskFeedback.java" />
         <option value="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/adapter/InfoAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/org/yftx/wzd/engine/WZD.java" />
+        <option value="$PROJECT_DIR$/app/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/InfoFragment.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1872" />
-    <option name="height" value="1096" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -253,7 +210,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="PackagesPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -273,6 +230,70 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.yftx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.yftx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="engine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.yftx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="ProjectPane">
@@ -290,6 +311,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wzd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yftx" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -325,12 +382,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Java" />
+    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="c9370083" />
@@ -350,11 +407,14 @@
       <recent name="org.yftx.common.task" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Src\idea\wzd\app\res\drawable" />
+      <recent name="F:\Src\idea\wzd\depend" />
       <recent name="F:\Src\idea\wzd\app\res\drawable-ldpi" />
       <recent name="F:\Src\idea\wzd\app\src\org\yftx\common" />
       <recent name="F:\Src\idea\wzd\app\libs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Src\idea\wzd\app\res\drawable" />
-      <recent name="F:\Src\idea\wzd\app\res\layout" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.app">
@@ -535,35 +595,35 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1872" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.6698925" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39914164" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39914164" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Kahlua" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.472103" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Kahlua" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1967742" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.472043" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18493909" sideWeight="0.67060083" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17860962" sideWeight="0.6698925" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33010754" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32945737" sideWeight="0.67060083" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328877" sideWeight="0.8032258" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -659,85 +719,109 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/res/drawable-hdpi/ic_launcher.png">
+    <entry file="file://$PROJECT_DIR$/ViewPagerIndicator/res/values/vpi__attrs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="5" selection-start="3601" selection-end="3601" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ViewPagerIndicator/res/values/vpi__styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ViewPagerIndicator/gen/com/viewpagerindicator/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="849" column="52" selection-start="43851" selection-end="43851" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ViewPagerIndicator/res/values/vpi__defaults.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="17" selection-start="2157" selection-end="2157" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/res/layout/title_count.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="37" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/org/yftx/wzd/utils/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="15" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/res/drawable/logo.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://D:/Work/Android/android-sdk_r18/sources/android-16/android/widget/Adapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="10" selection-start="631" selection-end="631" vertical-scroll-proportion="0.30872482" />
+    <entry file="file://$PROJECT_DIR$/app/res/drawable/ic_pulltorefresh_arrow.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://D:/Work/Android/android-sdk_r18/sources/android-16/android/widget/ListView.java">
+    <entry file="file://$PROJECT_DIR$/app/src/org/yftx/common/task/TaskFeedback.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3114" column="19" selection-start="120374" selection-end="120374" vertical-scroll-proportion="0.026845638" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/res/layout/pull_to_refresh_header.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="41" selection-start="1716" selection-end="1716" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/res/layout/info_item.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="0" selection-start="2332" selection-end="2332" vertical-scroll-proportion="0.43288592" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/org/yftx/wzd/ui/adapter/InfoAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="43" selection-start="2108" selection-end="2108" vertical-scroll-proportion="2.5738256" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/org/yftx/wzd/ui/adapter/ContentAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="211" selection-end="211" vertical-scroll-proportion="0.30536914" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/org/yftx/wzd/ui/InfoFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="33" selection-start="2343" selection-end="2343" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/org/yftx/wzd/ui/custom/PullToRefreshListView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="360" column="16" selection-start="12690" selection-end="12690" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/org/yftx/wzd/ui/base/Refreshable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="9" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/org/yftx/common/task/TaskAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="22" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/org/yftx/common/task/TaskListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/res/layout/main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="2" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/org/yftx/wzd/engine/WZD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="21" selection-start="1230" selection-end="1230" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/res/layout/info.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="24" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0" />
+        <state line="106" column="35" selection-start="2213" selection-end="2213" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/org/yftx/wzd/ui/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="28" selection-start="815" selection-end="815" vertical-scroll-proportion="0.30564785">
+        <state line="112" column="32" selection-start="3630" selection-end="3630" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/org/yftx/wzd/ui/custom/PullToRefreshListView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="52" selection-start="2192" selection-end="2192" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/org/yftx/wzd/ui/adapter/InfoAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="30" selection-start="1266" selection-end="1266" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/org/yftx/wzd/domain/Bid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="136" column="18" selection-start="2603" selection-end="2603" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/org/yftx/wzd/engine/WZD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="46" selection-start="3621" selection-end="3621" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="73" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/org/yftx/wzd/ui/InfoFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="27" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.5824916">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2129#2291#0" expanded="true" />
+            <element signature="e#2280#2281#0" expanded="true" />
+            <element signature="e#2329#2663#0" expanded="true" />
+            <element signature="e#2652#2653#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

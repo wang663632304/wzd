@@ -48,6 +48,7 @@ public class InfoAdapter extends BaseAdapter {
         }
 
         Bid bid = mainActivity.bids.get(position);
+        convertView.setTag(bid);
 
 
         TextView tvApr = (TextView) convertView.findViewById(R.id.tv_apr);

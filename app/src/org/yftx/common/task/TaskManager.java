@@ -1,7 +1,5 @@
 package org.yftx.common.task;
 
-import android.util.Log;
-
 import java.util.Observable;
 import java.util.Observer;
 
@@ -11,7 +9,6 @@ public class TaskManager extends Observable {
 	public static final Integer CANCEL_ALL = 1;
 
 	public void cancelAll() {
-		Log.d(TAG, "All task Cancelled.");
 		setChanged();
 		notifyObservers(CANCEL_ALL);
 	}

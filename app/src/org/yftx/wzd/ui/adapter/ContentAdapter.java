@@ -5,6 +5,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import org.yftx.wzd.ui.InfoFragment;
+import org.yftx.wzd.utils.Logger;
 
 /**
  * User: yftx
@@ -13,7 +14,7 @@ import org.yftx.wzd.ui.InfoFragment;
  */
 
 public class ContentAdapter extends FragmentPagerAdapter {
-    protected static final String[] CONTENT = new String[]{"天标", "月标"};
+    protected static final String[] CONTENT = new String[]{"温州贷", "月标"};
 
     private int mCount = CONTENT.length;
     public ContentAdapter(FragmentManager fm) {
@@ -22,12 +23,13 @@ public class ContentAdapter extends FragmentPagerAdapter {
 
     @Override
     public Fragment getItem(int position) {
+        Logger.d("getItem  pos --> "+position);
         return InfoFragment.newInstance(position);
     }
 
     @Override
     public int getCount() {
-        return mCount;
+        return 1;
     }
 
     @Override

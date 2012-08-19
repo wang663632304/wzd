@@ -13,4 +13,6 @@ public interface Refreshable {
      * @param listener 任务处理过程的回调函数
      */
     void doRetrieve(TaskAdapter listener);
+
+    void freshUI();
 }

@@ -74,11 +74,15 @@ public class WZD {
                             currentBid.setUsername(parser.nextText());
                         } else if (name.equalsIgnoreCase("borrow_type")) {
                             currentBid.setBorrow_type(parser.nextText());
+                        } else if (name.equalsIgnoreCase("link_url")) {
+                            currentBid.setLink_url(parser.nextText());
                         }
                     }
                     break;
                 case XmlPullParser.END_TAG://结束元素事件
-                    if (parser.getName().equalsIgnoreCase("item") && currentBid != null) {
+                    if (parser.getName().equalsIgnoreCase("item")
+                            && currentBid != null
+                            && bids != null) {
                         bids.add(currentBid);
                         currentBid = null;
                     }
