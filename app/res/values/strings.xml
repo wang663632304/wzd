@@ -6,4 +6,14 @@
     <string name="pull_to_refresh_release_label">Release to refresh</string>
     <string name="pull_to_refresh_refreshing_label">Loading</string>
     <string name="pull_to_refresh_tap_label">Tap to refresh</string>
+    <string name="about">为了方便广大温州贷用户看标开发</string>
+    <string name="qq">QQ: 329648628</string>
+    <string name="email">wzd.app@gmail.com</string>
+    <string name="developer">开发者 : yftx</string>
+    <string name="help">
+        "1.为了方便温州贷用户看标开发。\n
+        2.希望温州贷办的越来越好。\n
+        3.如果你觉得好用那请您帮忙点击下广告吧。\n
+        4.苦逼程序员需要吃饭啊。\n"
+    </string>
 </resources>

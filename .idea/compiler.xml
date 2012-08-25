@@ -6,6 +6,9 @@
       <directory url="file://$PROJECT_DIR$/actionbar/gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/app/gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/ViewPagerIndicator/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/../android-undergarment/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/PulltorefreshListView/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/android-undergarment/gen" includeSubdirectories="true" />
     </excludeFromCompile>
     <resourceExtensions />
     <wildcardResourcePatterns>

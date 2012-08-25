@@ -24,7 +24,7 @@ public class ContentAdapter extends FragmentPagerAdapter {
     @Override
     public Fragment getItem(int position) {
         Logger.d("getItem  pos --> "+position);
-        return InfoFragment.newInstance(position);
+        return InfoFragment.newInstance();
     }
 
     @Override

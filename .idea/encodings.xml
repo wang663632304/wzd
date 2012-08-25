@@ -3,6 +3,13 @@
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
     <file url="file://$PROJECT_DIR$/../ignition/ignition-core/ignition-core-tests" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../ignition/ignition-core/ignition-core-tests/remote-image-view-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/res/drawable-hdpi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/res/drawable-ldpi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/res/drawable-mdpi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/res/drawable/actionbar_background.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/res/drawable/pager_title_background.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/res/values/colors.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/res/values/theme.xml" charset="UTF-8" />
   </component>
 </project>
 

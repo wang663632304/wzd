@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/dashboard_blue_background"
+        >
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_above="@+id/btn_setting"
+            android:layout_marginBottom="5px"
+            >
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/DashboardText"
+                />
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/developer"
+                style="@style/DashboardText"
+                android:layout_above="@+id/qq"
+                />
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/qq"
+                style="@style/DashboardText"
+                android:layout_above="@+id/tv_mail"
+                android:id="@id/qq"
+                />
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@id/tv_mail"
+                android:layout_alignParentBottom="true"
+                android:text="@string/email"
+                android:gravity="center"
+                style="@style/DashboardText"
+                />
+    </RelativeLayout>
+
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="设置"
+            android:id="@id/btn_setting"
+            android:layout_above="@+id/btn_close"
+            android:background="#00000000"
+            />
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20px"
+            android:gravity="center"
+            android:id="@id/btn_close"
+            android:background="#00000000"
+            android:text="退出"
+            />
+
+</RelativeLayout>

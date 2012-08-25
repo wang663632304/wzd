@@ -5,9 +5,11 @@
               android:layout_height="fill_parent"
               android:orientation="vertical"
         >
-    <org.yftx.wzd.ui.custom.PullToRefreshListView
+    <yaochangwei.pulltorefreshlistview.widget.extend.PullToRefreshListView
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:id="@+id/lv_info"
+            android:dividerHeight="1px"
+            android:divider="@drawable/bid_info_divider"
             />
 </LinearLayout>

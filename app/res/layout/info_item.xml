@@ -5,64 +5,65 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@drawable/list_item_background"
         >
-    <RelativeLayout
-            android:layout_width="fill_parent"
-            android:layout_height="80dip"
-            android:background="#f0fff0"
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dip"
+            android:orientation="horizontal"
             >
-        <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="20%"
-                android:textSize="15sp"
-                android:id="@+id/tv_apr"
-                android:layout_alignParentLeft="true"
-                android:layout_marginLeft="10px"
-                android:layout_marginTop="10px"
-                android:textColor="#68CCFF"
-                />
-        <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="100000"
-                android:textSize="15sp"
-                android:id="@+id/tv_account_format"
-                android:layout_below="@id/tv_apr"
-                android:layout_marginTop="10px"
-                android:layout_marginLeft="10px"
-                android:textColor="#68CCFF"
-                />
-        <TextView
-                android:layout_width="100dip"
-                android:layout_height="match_parent"
-                android:layout_toRightOf="@id/tv_apr"
-                android:layout_marginLeft="40px"
-                android:text="创新借款系列——汽车：奥迪A8"
-                android:gravity="center_vertical"
-                android:textSize="15sp"
-                android:id="@+id/tv_name"
-                android:textColor="#FF8080"
-                />
-        <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="完成度"
-                android:textSize="15sp"
-                android:layout_centerVertical="true"
-                android:layout_marginRight="30px"
-                android:id="@+id/tv_scale"
-                android:layout_toLeftOf="@+id/iv_ico"
-                android:textColor="#3D5C99"
-                />
         <ImageView
                 android:layout_width="32px"
                 android:layout_height="32px"
-                android:layout_marginRight="5px"
-                android:layout_marginTop="5px"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentRight="true"
-                android:id="@id/iv_ico"
+                android:layout_marginTop="10dip"
+                android:layout_marginLeft="10dip"
+                android:id="@+id/iv_ico"
+                android:src="@drawable/li"
                 />
-    </RelativeLayout>
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dip"
+                >
+            <TextView
+                    style="@style/BidInfoLeftText"
+                    android:layout_width="match_parent"
+                    android:text="创新借款系列（1）——7天标"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_name"
+                    android:layout_marginTop="5dip"
+                    />
+            <TextView
+                    style="@style/BidInfoLeftText"
+                    android:layout_below="@id/tv_name"
+                    android:text="Daydq1"
+                    android:id="@+id/tv_userName"
+                    />
+            <TextView
+                    style="@style/BidInfoRightText"
+                    android:layout_below="@id/tv_name"
+                    android:text="2012-08-25 13:11:06"
+                    android:id="@+id/tv_bidTime"
+                    />
+            <TextView
+                    style="@style/BidInfoLeftText"
+                    android:text="年化： 20.5%"
+                    android:id="@+id/tv_apr"
+                    android:layout_below="@id/tv_userName"
+                    />
+            <TextView
+                    style="@style/BidInfoRightText"
+                    android:text="100000"
+                    android:id="@+id/tv_account_format"
+                    android:layout_below="@id/tv_userName"
+                    />
+            <TextView
+                    style="@style/BidInfoLeftText"
+                    android:layout_below="@id/tv_apr"
+                    android:text="完成度  95%"
+                    android:id="@+id/tv_scale"
+                    />
+        </RelativeLayout>
+    </LinearLayout>
 </LinearLayout>

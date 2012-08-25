@@ -1,6 +1,9 @@
 package org.yftx.wzd.ui.base;
 
+import org.xmlpull.v1.XmlPullParserException;
 import org.yftx.common.task.TaskAdapter;
+
+import java.io.IOException;
 
 /**
  * User: yftx
@@ -10,9 +13,8 @@ import org.yftx.common.task.TaskAdapter;
 public interface Refreshable {
     /**
      * 请求数据
-     * @param listener 任务处理过程的回调函数
      */
-    void doRetrieve(TaskAdapter listener);
+    void doRetrieve() throws IOException, XmlPullParserException;
 
     void freshUI();
 }

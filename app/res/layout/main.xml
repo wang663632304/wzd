@@ -18,17 +18,23 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:viewpager="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
-
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <com.viewpagerindicator.TitlePageIndicator
         android:id="@+id/indicator"
-        android:padding="10dip"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_width="fill_parent"
-        android:textSize="15sp"
-        viewpager:selectedColor="#7AC759"
-        />
+        android:background="@drawable/pager_title_background"
+        android:textColor="@color/pager_title_text"
+        viewpager:clipPadding="10dp"
+        viewpager:footerColor="@color/pager_footer"
+        viewpager:footerIndicatorHeight="5dp"
+        viewpager:footerIndicatorStyle="triangle"
+        viewpager:footerLineHeight="0dp"
+        viewpager:selectedBold="true"
+        viewpager:selectedColor="@color/pager_title_selected_text"
+        viewpager:titlePadding="10dp" />
+
     <android.support.v4.view.ViewPager
         android:id="@+id/pager"
         android:layout_width="fill_parent"

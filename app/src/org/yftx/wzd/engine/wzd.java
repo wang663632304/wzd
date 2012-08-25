@@ -5,6 +5,7 @@ import android.util.Xml;
 import com.github.kevinsawicki.http.HttpRequest;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
+import org.xmlpull.v1.XmlPullParserFactory;
 import org.yftx.wzd.R;
 import org.yftx.wzd.domain.Bid;
 
@@ -40,7 +41,9 @@ public class WZD {
     }
 
     private List<Bid> handleResult(String response) throws XmlPullParserException, IOException {
-        XmlPullParser parser = Xml.newPullParser();
+        XmlPullParserFactory factory = XmlPullParserFactory.newInstance();
+        factory.setNamespaceAware(true);
+        XmlPullParser parser = factory.newPullParser();
         int eventType = parser.getEventType();
         List<Bid> bids = null;
         Bid currentBid = null;

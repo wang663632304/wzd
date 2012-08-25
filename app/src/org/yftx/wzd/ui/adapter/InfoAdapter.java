@@ -55,12 +55,16 @@ public class InfoAdapter extends BaseAdapter {
         TextView tvAccountFormat = (TextView) convertView.findViewById(R.id.tv_account_format);
         TextView tvName = (TextView) convertView.findViewById(R.id.tv_name);
         TextView tvScale = (TextView) convertView.findViewById(R.id.tv_scale);
+        TextView tvUserName = (TextView) convertView.findViewById(R.id.tv_userName);
+        TextView tvBidTime = (TextView) convertView.findViewById(R.id.tv_bidTime);
         ImageView ivIco = (ImageView) convertView.findViewById(R.id.iv_ico);
 
-        tvApr.setText("年化" + bid.getApr() + "%");
-        tvAccountFormat.setText("总额" + bid.getAccount_format());
+        tvApr.setText("年化: " + bid.getApr() + "%");
+        tvAccountFormat.setText("总额: " + bid.getAccount_format());
         tvName.setText(bid.getName());
-        tvScale.setText(bid.getScale() + "%");
+        tvScale.setText("完成度: "+bid.getScale() + "%");
+        tvUserName.setText(bid.getUsername());
+        tvBidTime.setText(bid.getAddtime());
         ivIco.setImageResource(getImgId(bid.getBorrow_type()));
         return convertView;
     }

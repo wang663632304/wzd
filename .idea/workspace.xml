@@ -23,36 +23,64 @@
       </GlobalState>
     </option>
   </component>
-  <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="wzd" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="d0891956-b4a3-4248-859f-588ce9b62a0a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/res/drawable/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/depend/guava-13.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/res/layout/title_count.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/res/values/arrays.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/org/yftx/wzd/utils/Logger.java" />
-      <change type="DELETED" beforePath="F:\Src\idea\wzd\app\res\drawable-hdpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Src\idea\wzd\app\res\drawable-ldpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Src\idea\wzd\app\res\drawable-mdpi\ic_launcher.png" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/res/drawable/app_ico.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/res/drawable/bid_info_background.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/res/drawable/bid_info_divider.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/res/drawable/dashboard_blue_background.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/res/drawable/dashboard_bottom_gray_background.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PulltorefreshListView/PulltorefreshListView.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/res/drawable/actionbar_background.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/res/drawable/list_item_background.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/res/drawable/pager_title_background.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/res/layout/dashboard.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/res/layout/dashboard_info.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/res/values/colors.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/res/values/styles_text.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/res/values/theme.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/DashboardFragment.java" />
+      <change type="DELETED" beforePath="F:\Src\idea\wzd\.idea\libraries\app_depend.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\Src\idea\wzd\PulltorefreshListView\.classpath" afterPath="" />
+      <change type="DELETED" beforePath="F:\Src\idea\wzd\PulltorefreshListView\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="F:\Src\idea\wzd\PulltorefreshListView\.project" afterPath="" />
+      <change type="DELETED" beforePath="F:\Src\idea\wzd\PulltorefreshListView\.settings\org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="F:\Src\idea\wzd\PulltorefreshListView\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="F:\Src\idea\wzd\PulltorefreshListView\README" afterPath="" />
+      <change type="DELETED" beforePath="F:\Src\idea\wzd\PulltorefreshListView\libs\android-support-v4.jar" afterPath="" />
+      <change type="DELETED" beforePath="F:\Src\idea\wzd\PulltorefreshListView\lint.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\Src\idea\wzd\PulltorefreshListView\proguard-project.txt" afterPath="" />
+      <change type="DELETED" beforePath="F:\Src\idea\wzd\PulltorefreshListView\project.properties" afterPath="" />
+      <change type="DELETED" beforePath="F:\Src\idea\wzd\android-undergarment\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="F:\Src\idea\wzd\android-undergarment\README.md" afterPath="" />
+      <change type="DELETED" beforePath="F:\Src\idea\wzd\android-undergarment\ant.properties" afterPath="" />
+      <change type="DELETED" beforePath="F:\Src\idea\wzd\android-undergarment\build.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\Src\idea\wzd\android-undergarment\proguard-project.txt" afterPath="" />
+      <change type="DELETED" beforePath="F:\Src\idea\wzd\android-undergarment\project.properties" afterPath="" />
+      <change type="DELETED" beforePath="F:\Src\idea\wzd\app\res\drawable\logo.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ViewPagerIndicator/src/com/viewpagerindicator/TitlePageIndicator.java" afterPath="$PROJECT_DIR$/ViewPagerIndicator/src/com/viewpagerindicator/TitlePageIndicator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PulltorefreshListView/src/yaochangwei/pulltorefreshlistview/TestActivity.java" afterPath="$PROJECT_DIR$/PulltorefreshListView/src/yaochangwei/pulltorefreshlistview/TestActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PulltorefreshListView/src/yaochangwei/pulltorefreshlistview/widget/RefreshableListView.java" afterPath="$PROJECT_DIR$/PulltorefreshListView/src/yaochangwei/pulltorefreshlistview/widget/RefreshableListView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/actionbar/actionbar.iml" afterPath="$PROJECT_DIR$/actionbar/actionbar.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-undergarment/src/com/github/eddieringle/android/libs/undergarment/widgets/DrawerGarment.java" afterPath="$PROJECT_DIR$/android-undergarment/src/com/github/eddieringle/android/libs/undergarment/widgets/DrawerGarment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/project.properties" afterPath="$PROJECT_DIR$/app/project.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/res/layout/info.xml" afterPath="$PROJECT_DIR$/app/res/layout/info.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/res/layout/info_item.xml" afterPath="$PROJECT_DIR$/app/res/layout/info_item.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/res/layout/main.xml" afterPath="$PROJECT_DIR$/app/res/layout/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/org/yftx/common/task/TaskFeedback.java" afterPath="$PROJECT_DIR$/app/src/org/yftx/common/task/TaskFeedback.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/org/yftx/common/task/TaskManager.java" afterPath="$PROJECT_DIR$/app/src/org/yftx/common/task/TaskManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/res/layout/title_count.xml" afterPath="$PROJECT_DIR$/app/res/layout/title_count.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/InfoFragment.java" afterPath="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/InfoFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/adapter/ContentAdapter.java" afterPath="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/adapter/ContentAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/adapter/InfoAdapter.java" afterPath="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/adapter/InfoAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/base/Refreshable.java" afterPath="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/base/Refreshable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/custom/PullToRefreshListView.java" afterPath="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/custom/PullToRefreshListView.java" />
-      <change type="MOVED" beforePath="F:\Src\idea\wzd\app\res\drawable-ldpi\jiang.png" afterPath="$PROJECT_DIR$/app/res/drawable/jiang.png" />
-      <change type="MOVED" beforePath="F:\Src\idea\wzd\app\res\drawable-ldpi\jing.png" afterPath="$PROJECT_DIR$/app/res/drawable/jing.png" />
-      <change type="MOVED" beforePath="F:\Src\idea\wzd\app\res\drawable-ldpi\li.png" afterPath="$PROJECT_DIR$/app/res/drawable/li.png" />
-      <change type="MOVED" beforePath="F:\Src\idea\wzd\app\res\drawable-ldpi\tian.png" afterPath="$PROJECT_DIR$/app/res/drawable/tian.png" />
-      <change type="MOVED" beforePath="F:\Src\idea\wzd\app\res\drawable-ldpi\xin.png" afterPath="$PROJECT_DIR$/app/res/drawable/xin.png" />
+      <change type="MOVED" beforePath="F:\Src\idea\wzd\app\src\org\yftx\wzd\engine\wzd.java" afterPath="$PROJECT_DIR$/app/src/org/yftx/wzd/engine/WZD.java" />
     </list>
     <ignored path="wzd.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -117,8 +145,8 @@
       <property name="field_breakpoints_groupByClasses" value="true" />
       <property name="method_breakpoints_groupByClasses" value="true" />
       <property name="exception_breakpoints_viewId" value="TABLE" />
-      <property name="exception_breakpoints_groupByClasses" value="true" />
       <property name="field_breakpoints_viewId" value="TABLE" />
+      <property name="exception_breakpoints_groupByClasses" value="true" />
       <property name="method_breakpoints_groupByMethods" value="false" />
     </ui_properties>
   </component>
@@ -127,25 +155,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="InfoFragment.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/org/yftx/wzd/ui/InfoFragment.java">
+      <file leaf-file-name="info_item.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/res/layout/info_item.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="27" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.5824916">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2129#2291#0" expanded="true" />
-                <element signature="e#2280#2281#0" expanded="true" />
-                <element signature="e#2329#2663#0" expanded="true" />
-                <element signature="e#2652#2653#0" expanded="true" />
-              </folding>
+            <state line="10" column="17" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="73" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0">
+            <state line="11" column="48" selection-start="564" selection-end="564" vertical-scroll-proportion="0.4113821">
               <folding />
             </state>
           </provider>
@@ -163,38 +185,39 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/app/res/layout/pull_to_refresh_header.xml" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/app/src/org/yftx/wzd/ui/MainActivity.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/app/res/layout/info_item.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/app/src/org/yftx/wzd/ui/MainActivity.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/app/res/layout/dashboard_info.xml" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/custom/PullToRefreshListView.java" />
-        <option value="$PROJECT_DIR$/app/res/layout/title_count.xml" />
-        <option value="$PROJECT_DIR$/app/res/values/array.xml" />
-        <option value="$PROJECT_DIR$/app/res/values/arrays.xml" />
+        <option value="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/DashboardFragment.java" />
+        <option value="$PROJECT_DIR$/app/res/layout/info.xml" />
+        <option value="$PROJECT_DIR$/PulltorefreshListView/src/yaochangwei/pulltorefreshlistview/widget/RefreshableListView.java" />
         <option value="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/base/Refreshable.java" />
-        <option value="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/adapter/ContentAdapter.java" />
-        <option value="$PROJECT_DIR$/ViewPagerIndicator/res/values/vpi__defaults.xml" />
-        <option value="$PROJECT_DIR$/ViewPagerIndicator/src/com/viewpagerindicator/TitlePageIndicator.java" />
+        <option value="$PROJECT_DIR$/app/res/drawable/list_item_background.xml" />
         <option value="$PROJECT_DIR$/app/res/layout/main.xml" />
-        <option value="$PROJECT_DIR$/app/src/org/yftx/wzd/utils/Logger.java" />
-        <option value="$PROJECT_DIR$/app/src/org/yftx/common/task/TaskFeedback.java" />
-        <option value="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/adapter/InfoAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/org/yftx/wzd/engine/WZD.java" />
-        <option value="$PROJECT_DIR$/app/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/res/values/theme.xml" />
+        <option value="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/adapter/ContentAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/InfoFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/res/layout/title_count.xml" />
+        <option value="$PROJECT_DIR$/android-undergarment/src/com/github/eddieringle/android/libs/undergarment/widgets/DrawerGarment.java" />
+        <option value="$PROJECT_DIR$/app/res/values/styles_text.xml" />
+        <option value="$PROJECT_DIR$/app/res/layout/info_item.xml" />
+        <option value="$PROJECT_DIR$/app/src/org/yftx/wzd/ui/adapter/InfoAdapter.java" />
+        <option value="$PROJECT_DIR$/app/AndroidManifest.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="width" value="1872" />
+    <option name="height" value="1096" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -209,8 +232,13 @@
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
+  <component name="ProjectStructureProblems">
+    <ignored-problems>
+      <problem id="library-invalid-classes-path(library:project:app-depend)" />
+    </ignored-problems>
+  </component>
   <component name="ProjectView">
-    <navigator currentView="PackagesPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -230,70 +258,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wzd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wzd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org.yftx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wzd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wzd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org.yftx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wzd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="engine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wzd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org.yftx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="ProjectPane">
@@ -311,6 +275,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wzd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PulltorefreshListView" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PulltorefreshListView" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -350,6 +346,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope">
@@ -382,12 +396,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="OverrideImplement.combined" value="true" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.proportion" value="0.155" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="c9370083" />
@@ -395,11 +409,11 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="GA2.3.3" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="GA4.0.3" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -407,17 +421,37 @@
       <recent name="org.yftx.common.task" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Src\idea\wzd\app\res" />
       <recent name="F:\Src\idea\wzd\app\res\drawable" />
+      <recent name="F:\Src\idea\wzd\app\res\values" />
       <recent name="F:\Src\idea\wzd\depend" />
       <recent name="F:\Src\idea\wzd\app\res\drawable-ldpi" />
-      <recent name="F:\Src\idea\wzd\app\src\org\yftx\common" />
-      <recent name="F:\Src\idea\wzd\app\libs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Src\idea\wzd\app\res\values" />
       <recent name="F:\Src\idea\wzd\app\res\drawable" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.app">
+    <configuration default="false" name="MainActivity" type="AndroidRunConfigurationType" factoryName="Android Application" temporary="true">
+      <module name="app" />
+      <option name="ACTIVITY_CLASS" value="org.yftx.wzd.ui.MainActivity" />
+      <option name="MODE" value="specific_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -559,8 +593,9 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Android Application.app" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Android Application.MainActivity" />
+      <item index="1" class="java.lang.String" itemvalue="Android Application.app" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -595,34 +630,34 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1872" height="1096" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.6698925" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.67083335" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32834995" sideWeight="0.67083335" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39914164" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39791667" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Kahlua" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1967742" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.472043" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3795699" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.471875" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17860962" sideWeight="0.6698925" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33010754" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22812846" sideWeight="0.67083335" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328877" sideWeight="0.8032258" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -719,109 +754,113 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ViewPagerIndicator/res/values/vpi__attrs.xml">
+    <entry file="file://D:/Work/Android/android-sdk_r18/sources/android-16/android/os/Handler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="5" selection-start="3601" selection-end="3601" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ViewPagerIndicator/res/values/vpi__styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ViewPagerIndicator/gen/com/viewpagerindicator/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="849" column="52" selection-start="43851" selection-end="43851" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ViewPagerIndicator/res/values/vpi__defaults.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="17" selection-start="2157" selection-end="2157" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/res/layout/title_count.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="37" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/org/yftx/wzd/utils/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="15" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
+        <state line="605" column="0" selection-start="23445" selection-end="23445" vertical-scroll-proportion="0.297561">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/res/drawable/logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/res/drawable/ic_pulltorefresh_arrow.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/org/yftx/common/task/TaskFeedback.java">
+    <entry file="file://D:/Work/Android/android-sdk_r18/sources/android-16/android/database/DataSetObservable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="35" selection-start="2213" selection-end="2213" vertical-scroll-proportion="0.0">
+        <state line="37" column="0" selection-start="1649" selection-end="1649" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Work/Android/android-sdk_r18/extras/android/support/v4/src/java/android/support/v4/view/PagerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="276" column="0" selection-start="12151" selection-end="12151" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/org/yftx/wzd/ui/adapter/ContentAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="11" selection-start="499" selection-end="499" vertical-scroll-proportion="0.5609756">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PulltorefreshListView/src/yaochangwei/pulltorefreshlistview/widget/RefreshableListView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="8" selection-start="1899" selection-end="1899" vertical-scroll-proportion="0.48617887">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2919#3099#0" expanded="true" />
+            <element signature="e#3091#3092#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/org/yftx/wzd/ui/InfoFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="37" selection-start="2236" selection-end="2236" vertical-scroll-proportion="0.63414633">
+          <folding>
+            <element signature="e#2410#2745#0" expanded="true" />
+            <element signature="e#2734#2735#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/res/layout/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="20" selection-start="1349" selection-end="1349" vertical-scroll-proportion="0.2894309">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/org/yftx/wzd/ui/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="32" selection-start="3630" selection-end="3630" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="72" column="41" selection-start="2180" selection-end="2180" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/org/yftx/wzd/ui/custom/PullToRefreshListView.java">
+    <entry file="file://$PROJECT_DIR$/app/res/layout/title_count.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="52" selection-start="2192" selection-end="2192" vertical-scroll-proportion="0.0">
+        <state line="11" column="38" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-undergarment/src/com/github/eddieringle/android/libs/undergarment/widgets/DrawerGarment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="0" selection-start="2526" selection-end="2526" vertical-scroll-proportion="0.63577235">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/res/values/styles_text.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="475" selection-end="475" vertical-scroll-proportion="0.2717508">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/org/yftx/wzd/ui/adapter/InfoAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="30" selection-start="1266" selection-end="1266" vertical-scroll-proportion="0.0">
+        <state line="58" column="25" selection-start="1708" selection-end="1708" vertical-scroll-proportion="0.37375414">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/org/yftx/wzd/domain/Bid.java">
+    <entry file="file://$PROJECT_DIR$/app/res/layout/info_item.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="18" selection-start="2603" selection-end="2603" vertical-scroll-proportion="0.0">
+        <state line="10" column="17" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/org/yftx/wzd/engine/WZD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="46" selection-start="3621" selection-end="3621" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/app/res/drawable/app_ico.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="73" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0">
+        <state line="11" column="48" selection-start="564" selection-end="564" vertical-scroll-proportion="0.4113821">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/org/yftx/wzd/ui/InfoFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="27" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.5824916">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2129#2291#0" expanded="true" />
-            <element signature="e#2280#2281#0" expanded="true" />
-            <element signature="e#2329#2663#0" expanded="true" />
-            <element signature="e#2652#2653#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -865,7 +904,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.6</last-edited>
+          <last-edited>Android 4.0 Google APIs</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

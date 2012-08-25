@@ -8,9 +8,8 @@
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="100"
             android:textSize="30sp"
-            android:textColor="#EC5C1C"
+            android:textColor="#6C737A"
             android:id="@+id/tv_bidCount"
             />
 

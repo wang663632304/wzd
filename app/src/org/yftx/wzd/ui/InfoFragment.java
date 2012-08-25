@@ -6,20 +6,16 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
 import android.widget.AdapterView;
 import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.app.SherlockFragment;
-import org.yftx.common.task.GenericTask;
-import org.yftx.common.task.TaskAdapter;
-import org.yftx.common.task.TaskFeedback;
-import org.yftx.common.task.TaskResult;
 import org.yftx.wzd.R;
 import org.yftx.wzd.domain.Bid;
 import org.yftx.wzd.ui.adapter.InfoAdapter;
 import org.yftx.wzd.ui.base.Refreshable;
-import org.yftx.wzd.ui.custom.PullToRefreshListView;
 import org.yftx.wzd.utils.Logger;
+import yaochangwei.pulltorefreshlistview.widget.RefreshableListView;
+import yaochangwei.pulltorefreshlistview.widget.extend.PullToRefreshListView;
 
 
 /**
@@ -31,13 +27,12 @@ import org.yftx.wzd.utils.Logger;
 public class InfoFragment extends SherlockFragment implements ActionBar.OnNavigationListener {
     static final String KEY_CONTENT = "InfoFragment:Content";
     static final String TAG = "InfoFragment";
-    private int mCurrentPos;
     private PullToRefreshListView plv;
     Refreshable refreshable;
+    InfoAdapter infoAdapter;
 
-    public static InfoFragment newInstance(int currentPos) {
+    public static InfoFragment newInstance() {
         InfoFragment fragment = new InfoFragment();
-        fragment.mCurrentPos = currentPos;
         return fragment;
     }
 
@@ -45,8 +40,7 @@ public class InfoFragment extends SherlockFragment implements ActionBar.OnNaviga
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         if ((savedInstanceState != null) && savedInstanceState.containsKey(KEY_CONTENT)) {
-
-//            mContent = savedInstanceState.getString(KEY_CONTENT);
+            //mContent = savedInstanceState.getString(KEY_CONTENT);
         }
     }
 
@@ -61,22 +55,32 @@ public class InfoFragment extends SherlockFragment implements ActionBar.OnNaviga
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         refreshable = (Refreshable) getActivity();
-        plv.setAdapter(new InfoAdapter(getActivity()));
-        plv.setOnRefreshListener(new PullToRefreshListView.OnRefreshListener() {
-            @Override
-            public void onRefresh() {
+        infoAdapter = new InfoAdapter(getActivity());
+        plv.setAdapter(infoAdapter);
+        plv.setOnUpdateTask(new RefreshableListView.OnUpdateTask() {
+            public void updateBackground() {
                 refreshData();
             }
+
+            public void updateUI() {
+                refreshable.freshUI();
+                infoAdapter.notifyDataSetChanged();
+            }
+
+            public void onUpdateStart() {
+            }
         });
+
+
         plv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Bid bid = (Bid) view.getTag();
-                Logger.d("当前点击的item的url为"+ bid.getLink_url());
+                Logger.d("当前点击的item的url为" + bid.getLink_url());
                 openUrl(bid.getLink_url());
             }
         });
-        refreshData();
+        plv.startUpdateImmediate();
     }
 
 
@@ -90,52 +94,15 @@ public class InfoFragment extends SherlockFragment implements ActionBar.OnNaviga
     @Override
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-//        outState.putString(KEY_CONTENT, mContent);
-    }
-
-
-    TaskAdapter mFragListener = new TaskAdapter() {
-        @Override
-        public String getName() {
-            return "mFragListener";
-        }
-
-        @Override
-        public void onPreExecute(GenericTask task) {
-            Logger.d("开始请求服务器");
-            plv.onRefreshComplete();
-            TaskFeedback.getInstance(TaskFeedback.DIALOG_MODE, getActivity()).start("刷新投标信息");
-        }
-
-        @Override
-        public void onCancelled(GenericTask task) {
-            plv.onRefreshComplete();
-            TaskFeedback.getInstance(TaskFeedback.DIALOG_MODE, getActivity()).cancel();
-        }
-
-        @Override
-        public void onPostExecute(GenericTask task, TaskResult result) {
-            if (result == TaskResult.AUTH_ERROR) {
-            } else if (result == TaskResult.OK) {
-                Logger.d("刷新投标信息完成");
-                plv.onRefreshComplete();
-                refreshable.freshUI();
-                TaskFeedback.getInstance(TaskFeedback.DIALOG_MODE, getActivity()).success("刷新投标信息完成");
-                goTop();
-            } else if (result == TaskResult.IO_ERROR) {
-                Logger.d("刷新投标信息失败");
-                plv.onRefreshComplete();
-                TaskFeedback.getInstance(TaskFeedback.DIALOG_MODE, getActivity()).success("刷新投标信息失败");
-            }
-        }
-    };
-
-    public void goTop() {
-        plv.setSelection(1);
+        //.putString(KEY_CONTENT, mContent);
     }
 
     protected void refreshData() {
-        refreshable.doRetrieve(mFragListener);
+        try {
+            refreshable.doRetrieve();
+        } catch (Exception e) {
+            Logger.d("请求数据失败  失败原因" + e.toString());
+        }
     }
 
 
