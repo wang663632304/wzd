@@ -47,7 +47,7 @@ public class DashboardFragment extends SherlockFragment implements View.OnClickL
                 System.exit(0);
                 break;
             case R.id.btn_setting:
-                showMsg("打开设置界面");
+//                showMsg("打开设置界面");
                 break;
             default:
                 break;

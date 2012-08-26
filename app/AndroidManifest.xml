@@ -6,15 +6,21 @@
     <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="14"/>
 
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application android:label="@string/app_name" android:icon="@drawable/app_ico"
                  android:theme="@style/Theme.WZD" android:name="WZDApplication">
         <activity android:name=".ui.MainActivity"
-                  android:label="@string/app_name">
+                  android:label="@string/app_name" android:icon="@drawable/app_ico">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
+        <meta-data android:name="gfan_statistics_appkey" android:value="69DAF43A5C96D7DB22B3E7CE6C7EA958" />
+        <meta-data android:name="gfan_cpid" android:value="yftx.github.com" />
     </application>
 </manifest>

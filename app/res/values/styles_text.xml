@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="DashboardText" >
-        <item name="android:textColor">#0099CC</item>
+        <item name="android:textColor">#22282A</item>
         <item name="android:textSize">20sp</item>
         <item name="android:gravity">center</item>
         <item name="android:layout_marginBottom">20px</item>
@@ -10,7 +10,7 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">15sp</item>
-        <item name="android:textColor">#68CCFF</item>
+        <item name="android:textColor">#22282A</item>
     </style>
     <style name="BidInfoLeftText" parent="BidInfoBaseText">
         <item name="android:layout_width">wrap_content</item>

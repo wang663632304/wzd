@@ -9,10 +9,12 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.app.SherlockFragment;
+import com.gfan.sdk.statitistics.GFAgent;
 import org.yftx.wzd.R;
 import org.yftx.wzd.domain.Bid;
 import org.yftx.wzd.ui.adapter.InfoAdapter;
 import org.yftx.wzd.ui.base.Refreshable;
+import org.yftx.wzd.utils.DateTimeHelper;
 import org.yftx.wzd.utils.Logger;
 import yaochangwei.pulltorefreshlistview.widget.RefreshableListView;
 import yaochangwei.pulltorefreshlistview.widget.extend.PullToRefreshListView;
@@ -57,8 +59,10 @@ public class InfoFragment extends SherlockFragment implements ActionBar.OnNaviga
         refreshable = (Refreshable) getActivity();
         infoAdapter = new InfoAdapter(getActivity());
         plv.setAdapter(infoAdapter);
+        GFAgent.onEvent(getActivity(), "open app|-->" + DateTimeHelper.getNowTime());
         plv.setOnUpdateTask(new RefreshableListView.OnUpdateTask() {
             public void updateBackground() {
+                GFAgent.onEvent(getActivity(), "refresh|-->" + DateTimeHelper.getNowTime());
                 refreshData();
             }
 

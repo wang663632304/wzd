@@ -2,9 +2,7 @@
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:background="@drawable/dashboard_blue_background"
-        >
+                android:layout_height="fill_parent">
     <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -52,16 +50,18 @@
             android:id="@id/btn_setting"
             android:layout_above="@+id/btn_close"
             android:background="#00000000"
+            style="@style/DashboardText"
             />
     <Button
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:layout_marginBottom="20px"
+            android:layout_marginBottom="120dip"
             android:gravity="center"
             android:id="@id/btn_close"
             android:background="#00000000"
             android:text="退出"
+            style="@style/DashboardText"
             />
 
 </RelativeLayout>

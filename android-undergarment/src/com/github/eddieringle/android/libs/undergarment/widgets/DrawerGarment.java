@@ -55,7 +55,8 @@ public class DrawerGarment extends FrameLayout {
 
     public static final int SLIDE_TARGET_WINDOW = 1;
 
-    private static final int SCROLL_DURATION = 800;
+    private static final int SCROLL_OPEN_DURATION = 600;
+    private static final int SCROLL_CLOSE_DURATION = 400;
 
     private static final float TOUCH_TARGET_WIDTH_DIP = 48.0f;
 
@@ -171,7 +172,7 @@ public class DrawerGarment extends FrameLayout {
 
         mScrollerHandler = new Handler();
         mScroller = new Scroller(activity, new SmoothInterpolator());
-        
+
         /* Default to targeting the entire window (i.e., including the Action Bar) */
         mSlideTarget = SLIDE_TARGET_WINDOW;
 
@@ -454,7 +455,7 @@ public class DrawerGarment extends FrameLayout {
         final int widthPixels = getResources().getDisplayMetrics().widthPixels;
         mScroller
                 .startScroll(mDecorOffsetX, 0, (widthPixels - mTouchTargetWidth) - mDecorOffsetX, 0,
-                        SCROLL_DURATION);
+                        SCROLL_OPEN_DURATION);
 
         mScrollerHandler.postDelayed(new Runnable() {
             @Override
@@ -495,7 +496,7 @@ public class DrawerGarment extends FrameLayout {
         mDrawerMoving = true;
 
         final int widthPixels = getResources().getDisplayMetrics().widthPixels;
-        mScroller.startScroll(mDecorOffsetX, 0, -mDecorOffsetX, 0, SCROLL_DURATION);
+        mScroller.startScroll(mDecorOffsetX, 0, -mDecorOffsetX, 0, SCROLL_CLOSE_DURATION);
 
         mScrollerHandler.postDelayed(new Runnable() {
             @Override

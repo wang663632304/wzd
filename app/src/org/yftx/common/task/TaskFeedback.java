@@ -190,7 +190,6 @@ class DialogFeedback extends TaskFeedback {
  }
 
  @Override public void success(String prompt) {
- Log.d("LDS", "ON SUCCESS");
  _activity.setGlobalProgress(0);
  }
 

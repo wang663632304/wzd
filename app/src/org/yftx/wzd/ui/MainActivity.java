@@ -6,6 +6,7 @@ import android.widget.TextView;
 import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.actionbarsherlock.view.MenuItem;
+import com.gfan.sdk.statitistics.GFAgent;
 import com.github.eddieringle.android.libs.undergarment.widgets.DrawerGarment;
 import com.viewpagerindicator.TitlePageIndicator;
 import org.xmlpull.v1.XmlPullParserException;
@@ -71,13 +72,13 @@ public class MainActivity extends SherlockFragmentActivity implements Refreshabl
         ab.setCustomView(R.layout.title_count);
         ab.setDisplayShowCustomEnabled(true);
         ab.setLogo(R.drawable.app_ico);
-
-//        Context context = getSupportActionBar().getThemedContext();
-//        ArrayAdapter<CharSequence> listAdapter = ArrayAdapter.createFromResource(context, R.array.classify, R.layout.sherlock_spinner_item);
-//        listAdapter.setDropDownViewResource(R.layout.sherlock_spinner_dropdown_item);
-//        ab.setNavigationMode(ActionBar.NAVIGATION_MODE_LIST);
-//        ab.setListNavigationCallbacks(listAdapter, null);
-
+        /**
+         Context context = getSupportActionBar().getThemedContext();
+         ArrayAdapter<CharSequence> listAdapter = ArrayAdapter.createFromResource(context, R.array.classify, R.layout.sherlock_spinner_item);
+         listAdapter.setDropDownViewResource(R.layout.sherlock_spinner_dropdown_item);
+         ab.setNavigationMode(ActionBar.NAVIGATION_MODE_LIST);
+         ab.setListNavigationCallbacks(listAdapter, null);
+         */
         ab.setHomeButtonEnabled(true);
     }
 
@@ -140,6 +141,28 @@ public class MainActivity extends SherlockFragmentActivity implements Refreshabl
     @Override
     public boolean onMenuItemSelected(int featureId, MenuItem item) {
         return super.onMenuItemSelected(featureId, item);
+    }
+
+    @Override
+    public void onBackPressed() {
+        if (mDrawerGarment.isDrawerMoving())
+            return;
+        if (!isOpenDashBoard)
+            mDrawerGarment.openDrawer();
+        else
+            super.onBackPressed();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        GFAgent.onResume(this);
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        GFAgent.onPause(this);
     }
 
 }
